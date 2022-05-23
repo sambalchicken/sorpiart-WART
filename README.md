@@ -13,7 +13,7 @@ In order to run your tkinter gui script (**e.g. main.py**) everytime the **Raspb
 4. copy **tkinterautostart.desktop** into the folder
 4.1 `cp ~/sorpiart/tkinterautostart.desktop ~/.config/autostart/`
 5. edit **tkinterautostart.desktop** 
-5.1 `nano tkinterautostart.desktop`
+5.1 `nano ~/.config/autostart/tkinterautostart.desktop`
 
 ## To install sox library (pix2music)
 In order for **pix2music.py** to work, the **Raspberry Pi** will require the **Sound Exchange (sox)** library to be installed.
