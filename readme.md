@@ -225,7 +225,7 @@ def resetbtn():
 if no button is selected, it will pop up an error saying so - as seen in the function, empty().
 - clearbtn() clears selected buttons, turning them back to its original state (white background and 0).
 - resetbtn() resets profile, key, BPM and buttons to its original state.
-- 
+
 ### Quick Test
 Some numbers in the mainbox will be 1, to allow for quick sound test.
 ```python
