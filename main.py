@@ -1,5 +1,5 @@
 from tkinter import *
-from pix2musicnew import *
+from pix2music import *
 from tkinter import messagebox
 import tkinter.font as font
 import pyautogui
