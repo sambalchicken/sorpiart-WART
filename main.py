@@ -29,7 +29,6 @@ def create_preset(createbtn):
     savebtn.place(x=1070, y=35)
 def save_selected():
     global presetdict,presetDD, presets
-    x = 0
     if presetname.get() == "":
         messagebox.showinfo(title='Error',message='Please enter a preset name.')
     else:
@@ -58,10 +57,9 @@ def bsend():
                 bclear()
                 time.sleep(0.5)
                 messagebox.showinfo(title="Update",message="Successfully sent image!")
-        elif cfm == "no":
-            pass
         else:
-            messagebox.showerror("Error","Something went wrong!")
+            pass
+        
 def bclear():
     recEntry.delete(0,"end")
 def close_top():
@@ -151,7 +149,7 @@ def resetbtn():
     keyInsert.set("C4")
     
 def func(get_var):
-    global button, mainbox, presetmainbox
+    global button, mainbox
     if mainbox[get_var[0]][get_var[1]] == 0:
         mainbox[get_var[0]][get_var[1]] = 1
         
@@ -189,11 +187,9 @@ myFont = font.Font(family='MS Serif', size='10', weight='bold')
 phone_number = StringVar()
 box = [0 for j in range(14)]
 mainbox = [i for i in range(15)]
+button = [i for i in range(15)]
 for i in range(15):
-    mainbox[i] = [box[j]for j in range(14)]
-presetmainbox = mainbox
-button = [0 for i in range(15)]
-for i in range(15):
+    mainbox[i] = [0 for j in range(14)]
     button[i] = [0 for j in range(14)]
 for i in range(15):
     for j in range(14):
