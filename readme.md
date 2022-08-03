@@ -131,6 +131,7 @@ for i in range(15):
 >>Also, a **grid** layout is mainly used in this GUI.
 
 It should look like this:
+
 ![GUI](https://i.imgur.com/UIPbxcs.png)
 
 ### Toggle buttons between 1 and 0 (with colour change):
