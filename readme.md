@@ -1,4 +1,4 @@
-﻿# POC Documentation Group D // Andy,Bryan
+﻿# EGL314 WART Group D // Andy,Bryan
 
 ###	Table of content
 
