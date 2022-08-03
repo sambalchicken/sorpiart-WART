@@ -395,6 +395,7 @@ temp_rec = StringVar()
 Example:
 ![ExampleSS](https://i.ibb.co/m0827sX/guii3.png)
 After screenshot is taken, an entry box for email appears
+![EntryBox](https://i.imgur.com/7wrH1Kh.png)
 ```python
 def bsend():
     if recEntry.get() == "": #check for empty entry box
